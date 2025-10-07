@@ -1,0 +1,7 @@
+{
+  "name": "CMAC Roofing Visualizer",
+  "description": "An expert home exterior design visualization engine that specializes in photorealistic roofing replacements. Upload a photo of a house and specify a shingle product to see a visualization of the new roof.",
+  "requestFramePermissions": [
+    "camera"
+  ]
+}
