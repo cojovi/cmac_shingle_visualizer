@@ -5,7 +5,7 @@ export default defineConfig({
   fullyParallel: false,
   workers: 1,
   reporter: "list",
-  outputDir: "/tmp/cmac-playwright-results",
+  outputDir: "/tmp/shingle-playwright-results",
   use: { baseURL: "http://localhost:3000", headless: true },
   webServer: {
     command: "npm run dev",

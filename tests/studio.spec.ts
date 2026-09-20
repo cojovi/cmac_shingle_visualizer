@@ -10,7 +10,7 @@ test("studio renders at desktop and mobile widths with real assets and no overfl
   for (const width of [1440, 1024, 768, 375]) {
     await page.setViewportSize({ width, height: 1000 });
     await page.goto("/");
-    await expect(page).toHaveTitle("Roof Studio — CMAC Roofing");
+    await expect(page).toHaveTitle("Shingle Visualizer");
     await expect(page.getByRole("heading", { level: 1 })).toBeVisible();
     await expect(
       page.getByRole("img", { name: "Original home photograph" }),
@@ -24,7 +24,7 @@ test("studio renders at desktop and mobile widths with real assets and no overfl
       page.getByRole("button", { name: "Visualize my roof" }),
     ).toBeDisabled();
     await page.screenshot({
-      path: `/tmp/cmac-${width}.png`,
+      path: `/tmp/shingle-${width}.png`,
       fullPage: true,
       animations: "disabled",
     });
@@ -70,14 +70,11 @@ test("search resolves exact material, brand selection resets colors, and custom 
   await page.getByLabel("Manufacturer", { exact: true }).fill("GAF");
   await page.getByLabel("Product line / style").fill("Grand Sequoia");
   await page.getByLabel("Color name").fill("Charcoal");
-  await page
-    .locator("input[type=file]")
-    .nth(1)
-    .setInputFiles({
-      name: "sample.jpg",
-      mimeType: "image/jpeg",
-      buffer: sample,
-    });
+  await page.locator("input[type=file]").nth(1).setInputFiles({
+    name: "sample.jpg",
+    mimeType: "image/jpeg",
+    buffer: sample,
+  });
   await expect(
     page.getByRole("button", { name: "Visualize my roof" }),
   ).toBeEnabled();

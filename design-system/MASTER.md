@@ -1,12 +1,14 @@
-# CMAC Roof Studio design system
+# Shingle Visualizer design system
 
-Direction: a warm architectural material studio. The photograph is the dominant visual. An ivory canvas, muted botanical neutrals, and a terracotta action color tie the product controls to the house imagery.
+Direction: an independent, unbranded material studio in midnight navy, cool slate, and clear blue. The house photograph remains the dominant visual. The dark theme makes this branch immediately distinguishable from the warm branded version.
 
-The ui-ux-pro-max design-system search was run for architecture / roofing / renovation. Its general usability guidance informed the implementation; the dark, vibrant suggested palette was intentionally replaced with this coherent architectural direction under the user's request to use best judgment.
+The ui-ux-pro-max design-system search was run for a dark, modern roofing material studio. Its dark slate recommendation informed this palette; blue actions and cyan highlights give the unbranded product its own identity.
 
 - Display: Manrope, 500–650 weight; body: DM Sans.
-- Ink: #292c29; paper: #f6f5f1; panel: #fdfdfa; borders: #e4e4dc.
-- Accent/action: #ab4e30. Success/reference: #4c6853.
+- Text: #e8f0fb; canvas: #0b1220; panels: #111e31; borders: #293c56.
+- Action: #2563eb (white text); accent/focus: #7dd3fc; muted text: #a5b7ce.
+- Success: #6ee7b7. Error: #fda4af on #301c2b.
+- Identity: Shingle Visualizer and a generic layered-shingle icon. No roofing-company logo, promotional link, or company attribution. Manufacturer product names and image-source attribution remain for accurate identification.
 - Radius: 6–8px controls, 10–13px panels. Minimal shadows.
 - Desktop: compact configuration panel beside a large photo workspace.
 - Mobile: photo preview first, configuration stacked underneath; primary upload shortcut remains on the preview.

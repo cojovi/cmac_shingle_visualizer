@@ -1,4 +1,4 @@
-# CMAC Roof Studio
+# Shingle Visualizer
 
 A complete roofing design studio: upload or photograph a home, select an actual shingle product and color, and generate a reference-guided roof visualization. Includes a searchable manufacturer library, before/after slider, custom material references, local saved designs, and image downloads.
 

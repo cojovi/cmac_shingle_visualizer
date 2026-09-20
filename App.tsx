@@ -273,18 +273,18 @@ export default function App() {
         Skip to roof studio
       </a>
       <header className="site-header">
-        <a className="brand-lockup" href="/" aria-label="CMAC Roof Studio home">
+        <a
+          className="brand-lockup"
+          href="/"
+          aria-label="Shingle Visualizer home"
+        >
           <span className="brand-icon">
-            <House size={25} strokeWidth={1.6} />
+            <Layers3 size={24} strokeWidth={1.6} />
           </span>
           <span>
-            <strong>
-              CMAC<span className="brand-dot">.</span>
-            </strong>
-            <small>ROOFING</small>
+            <strong>Shingle Visualizer</strong>
+            <small>EXPLORE YOUR NEXT ROOF</small>
           </span>
-          <span className="brand-divider" />
-          <span className="studio-name">Roof Studio</span>
         </a>
         <nav aria-label="Main navigation">
           <button className="nav-link active" onClick={() => setModal(null)}>
@@ -943,17 +943,7 @@ export default function App() {
           </div>
         </section>
         <footer className="site-footer">
-          <span>
-            Built by{" "}
-            <a
-              href="https://tech.cmacroofing.com"
-              target="_blank"
-              rel="noreferrer"
-            >
-              CMAC Roofing <ArrowUpRight size={11} />
-            </a>{" "}
-            · Designed around your home.
-          </span>
+          <span>Shingle Visualizer · A new perspective on your home.</span>
           <div>
             <span
               className={`connection-dot ${configured ? "connected" : ""}`}

@@ -1,5 +1,5 @@
 {
-  "name": "CMAC Roof Studio",
+  "name": "Shingle Visualizer",
   "description": "Explore researched shingle collections, photograph your home, and create reference-guided roof previews with before-and-after comparison and saved designs.",
   "requestFramePermissions": ["camera"]
 }

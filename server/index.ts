@@ -27,12 +27,10 @@ app.post("/api/generate", async (req, res) => {
   for (const [key, value] of usage) if (value.reset < now) usage.delete(key);
   const window = usage.get(ip) || { count: 0, reset: now + 15 * 60_000 };
   if (window.count >= 10 || active >= 2)
-    return res
-      .status(429)
-      .json({
-        error:
-          "The studio is busy. Please wait a moment before generating another preview.",
-      });
+    return res.status(429).json({
+      error:
+        "The studio is busy. Please wait a moment before generating another preview.",
+    });
   if (process.env.GEMINI_API_KEY) {
     window.count++;
     usage.set(ip, window);
@@ -95,17 +93,15 @@ app.use(
     res: express.Response,
     _next: express.NextFunction,
   ) => {
-    res
-      .status(error.type === "entity.too.large" ? 413 : 400)
-      .json({
-        error:
-          error.type === "entity.too.large"
-            ? "The images are too large. Please choose smaller photos."
-            : "The request could not be read. Please try again.",
-      });
+    res.status(error.type === "entity.too.large" ? 413 : 400).json({
+      error:
+        error.type === "entity.too.large"
+          ? "The images are too large. Please choose smaller photos."
+          : "The request could not be read. Please try again.",
+    });
   },
 );
 const port = Number(process.env.PORT || 3000);
 app.listen(port, process.env.HOST || "127.0.0.1", () =>
-  console.log(`CMAC Roof Studio: http://localhost:${port}`),
+  console.log(`Shingle Visualizer: http://localhost:${port}`),
 );
