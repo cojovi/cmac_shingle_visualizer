@@ -1,0 +1,492 @@
+[
+  {
+    "id": "ct-landmark",
+    "brand": "CertainTeed",
+    "name": "Landmark",
+    "style": "Architectural",
+    "description": "Layered, wood-shake character with balanced shadow lines and natural color blends.",
+    "source": "https://www.certainteed.com/products/residential-roofing-products/landmark",
+    "verified": "2026-09-19",
+    "colors": [
+      {
+        "id": "weathered-wood",
+        "name": "Weathered Wood",
+        "reference": "https://certainteed.widen.net/content/ldn4f3lswm/jpeg/landmark-wewo-swatch.jpeg?w=400&h=519&position=c&color=ffffffff&quality=80&u=nwk4fd",
+        "swatch": "/images/swatches/ct-landmark-weathered-wood.jpg"
+      },
+      {
+        "id": "moire-black",
+        "name": "Moire Black",
+        "reference": "https://certainteed.widen.net/content/u5payeweli/jpeg/landmark-mobl-swatch.jpeg?w=400&h=519&position=c&color=ffffffff&quality=80&u=nwk4fd",
+        "swatch": "/images/swatches/ct-landmark-moire-black.jpg"
+      },
+      {
+        "id": "pewter",
+        "name": "Pewter",
+        "reference": "https://certainteed.widen.net/content/ooqbpptwwt/jpeg/landmark-pewt-swatch.jpeg?w=400&h=519&position=c&color=ffffffff&quality=80&u=otft5c",
+        "swatch": "/images/swatches/ct-landmark-pewter.jpg"
+      },
+      {
+        "id": "driftwood",
+        "name": "Driftwood",
+        "reference": "https://certainteed.widen.net/content/bultqbanif/jpeg/landmark-drif-swatch.jpeg?w=400&h=519&position=c&color=ffffffff&quality=80&u=otft5c",
+        "swatch": "/images/swatches/ct-landmark-driftwood.jpg"
+      },
+      {
+        "id": "georgetown-gray",
+        "name": "Georgetown Gray",
+        "reference": "https://certainteed.widen.net/content/vuv1nqq9xn/jpeg/landmark-gegr-swatch.jpeg?w=400&h=519&position=c&color=ffffffff&quality=80&u=nwk4fd",
+        "swatch": "/images/swatches/ct-landmark-georgetown-gray.jpg"
+      },
+      {
+        "id": "heather-blend",
+        "name": "Heather Blend",
+        "reference": "https://certainteed.widen.net/content/ea6xibbsvi/jpeg/landmark-hebl-swatch.jpeg?w=400&h=519&position=c&color=ffffffff&quality=80&u=nwk4fd",
+        "swatch": "/images/swatches/ct-landmark-heather-blend.jpg"
+      },
+      {
+        "id": "burnt-sienna",
+        "name": "Burnt Sienna",
+        "reference": "https://certainteed.widen.net/content/kacqyi6f4s/jpeg/landmark-busi-swatch.jpeg?w=400&h=519&position=c&color=ffffffff&quality=80&u=nwk4fd",
+        "swatch": "/images/swatches/ct-landmark-burnt-sienna.jpg"
+      },
+      {
+        "id": "colonial-slate",
+        "name": "Colonial Slate",
+        "reference": "https://certainteed.widen.net/content/7rzafrqpkc/jpeg/landmark-cosl-swatch.jpeg?w=400&h=519&position=c&color=ffffffff&quality=80&u=nwk4fd",
+        "swatch": "/images/swatches/ct-landmark-colonial-slate.jpg"
+      }
+    ]
+  },
+  {
+    "id": "oc-duration",
+    "brand": "Owens Corning",
+    "name": "TruDefinition Duration",
+    "style": "Architectural",
+    "description": "Dimensional laminated asphalt shingles with contrasting granule blends.",
+    "source": "https://www.owenscorning.com/en-us/roofing/build-your-roof/artisan-roofing-268449/shingles",
+    "verified": "2026-09-19",
+    "colors": [
+      {
+        "id": "onyx-black",
+        "name": "Onyx Black",
+        "reference": "https://imagecdn.owenscorning.com/ocimages/image/upload/c_crop,h_3699,w_3699,x_700,y_15/c_scale,w_640/f_jpg,q_85/v1/pagebuilder/uploads/prod/11340684/TDD_OnyxBlack_RGB_swatch_lg",
+        "swatch": "/images/swatches/oc-duration-onyx-black.jpg"
+      },
+      {
+        "id": "estate-gray",
+        "name": "Estate Gray",
+        "reference": "https://imagecdn.owenscorning.com/ocimages/image/upload/c_crop,h_3699,w_3699,x_1050,y_630/c_scale,w_640/f_jpg,q_85/v1/pagebuilder/uploads/prod/11340691/TDD_EstateGray_RGB_swatch_lg",
+        "swatch": "/images/swatches/oc-duration-estate-gray.jpg"
+      },
+      {
+        "id": "driftwood",
+        "name": "Driftwood",
+        "reference": "https://imagecdn.owenscorning.com/ocimages/image/upload/c_crop,h_3699,w_3699,x_20,y_20/c_scale,w_640/f_jpg,q_85/v1/pagebuilder/uploads/prod/11132163/TDD_Driftwood_RGB_swatch_lg_06-2022",
+        "swatch": "/images/swatches/oc-duration-driftwood.jpg"
+      },
+      {
+        "id": "brownwood",
+        "name": "Brownwood",
+        "reference": "https://imagecdn.owenscorning.com/ocimages/image/upload/c_crop,h_3699,w_3699,x_20,y_20/c_scale,w_640/f_jpg,q_85/v1/pagebuilder/uploads/prod/11009665/TDD_Brownwood_RGB_swatch_lg",
+        "swatch": "/images/swatches/oc-duration-brownwood.jpg"
+      },
+      {
+        "id": "chateau-green",
+        "name": "Chateau Green",
+        "reference": "https://imagecdn.owenscorning.com/ocimages/image/upload/c_crop,h_3699,w_3699,x_1767,y_2476/c_scale,w_640/f_jpg,q_85/v1/pagebuilder/uploads/prod/11220389/TDD_ChateauGreen_RGB_swatch_lg",
+        "swatch": "/images/swatches/oc-duration-chateau-green.jpg"
+      },
+      {
+        "id": "desert-rose",
+        "name": "Desert Rose",
+        "reference": "https://imagecdn.owenscorning.com/ocimages/image/upload/c_crop,h_3699,w_3699,x_90,y_20/c_scale,w_640/f_jpg,q_85/v1/pagebuilder/uploads/prod/11132152/TDD_DesertRose_RGB_swatch_lg",
+        "swatch": "/images/swatches/oc-duration-desert-rose.jpg"
+      },
+      {
+        "id": "midnight-plum",
+        "name": "Midnight Plum",
+        "reference": "https://imagecdn.owenscorning.com/ocimages/image/upload/c_crop,h_3699,w_3699,x_70,y_10/c_scale,w_640/f_jpg,q_85/v1/pagebuilder/uploads/prod/11134928/TDD_MidnightPlum_RGB_swatch_lg",
+        "swatch": "/images/swatches/oc-duration-midnight-plum.jpg"
+      },
+      {
+        "id": "peppercorn",
+        "name": "Peppercorn",
+        "reference": "https://imagecdn.owenscorning.com/ocimages/image/upload/c_crop,h_3699,w_3699,x_40,y_10/c_scale,w_640/f_jpg,q_85/v1/pagebuilder/uploads/prod/11134934/TDD_Peppercorn_RGB_swatch_lg",
+        "swatch": "/images/swatches/oc-duration-peppercorn.jpg"
+      },
+      {
+        "id": "slatestone-gray",
+        "name": "Slatestone Gray",
+        "reference": "https://imagecdn.owenscorning.com/ocimages/image/upload/c_crop,h_3699,w_3699,x_200,y_0/c_scale,w_640/f_jpg,q_85/v1/pagebuilder/uploads/prod/11393186/TDD_SlatestoneGray_RGB_swatch_lg",
+        "swatch": "/images/swatches/oc-duration-slatestone-gray.jpg"
+      },
+      {
+        "id": "teak",
+        "name": "Teak",
+        "reference": "https://imagecdn.owenscorning.com/ocimages/image/upload/c_crop,h_3699,w_3699,x_200,y_0/c_scale,w_640/f_jpg,q_85/v1/pagebuilder/uploads/prod/11262130/TDD_Teak_RGB_swatch_lg",
+        "swatch": "/images/swatches/oc-duration-teak.jpg"
+      },
+      {
+        "id": "williamsburg-gray",
+        "name": "Williamsburg Gray",
+        "reference": "https://imagecdn.owenscorning.com/ocimages/image/upload/c_crop,h_3699,w_3699,x_770,y_15/c_scale,w_640/f_jpg,q_85/v1/pagebuilder/uploads/prod/11239906/TDD_WilliamsburgGray_2023Blend_RGB_swatch_lg",
+        "swatch": "/images/swatches/oc-duration-williamsburg-gray.jpg"
+      }
+    ]
+  },
+  {
+    "id": "oc-oakridge",
+    "brand": "Owens Corning",
+    "name": "Oakridge",
+    "style": "Architectural",
+    "description": "Dimensional laminated asphalt shingles with contrasting granule blends.",
+    "source": "https://www.owenscorning.com/en-us/roofing/build-your-roof/artisan-roofing-268449/shingles",
+    "verified": "2026-09-19",
+    "colors": [
+      {
+        "id": "onyx-black",
+        "name": "Onyx Black",
+        "reference": "https://imagecdn.owenscorning.com/ocimages/image/upload/c_crop,h_3699,w_3699,x_210,y_0/c_scale,w_640/f_jpg,q_85/v1/pagebuilder/uploads/prod/11113880/O_OnyxBlack_RGB_swatch_lg",
+        "swatch": "/images/swatches/oc-oakridge-onyx-black.jpg"
+      },
+      {
+        "id": "estate-gray",
+        "name": "Estate Gray",
+        "reference": "https://imagecdn.owenscorning.com/ocimages/image/upload/c_crop,h_3699,w_3699,x_50,y_0/c_scale,w_640/f_jpg,q_85/v1/pagebuilder/uploads/prod/11245530/O_EstateGray_RGB_swatch_lg",
+        "swatch": "/images/swatches/oc-oakridge-estate-gray.jpg"
+      },
+      {
+        "id": "driftwood",
+        "name": "Driftwood",
+        "reference": "https://imagecdn.owenscorning.com/ocimages/image/upload/c_crop,h_3699,w_3699,x_290,y_0/c_scale,w_640/f_jpg,q_85/v1/pagebuilder/uploads/prod/11245521/O_Driftwood_RGB_swatch_lg",
+        "swatch": "/images/swatches/oc-oakridge-driftwood.jpg"
+      },
+      {
+        "id": "brownwood",
+        "name": "Brownwood",
+        "reference": "https://imagecdn.owenscorning.com/ocimages/image/upload/c_crop,h_3699,w_3699,x_100,y_0/c_scale,w_640/f_jpg,q_85/v1/pagebuilder/uploads/prod/11245505/O_Brownwood_RGB_swatch_lg",
+        "swatch": "/images/swatches/oc-oakridge-brownwood.jpg"
+      },
+      {
+        "id": "desert-tan",
+        "name": "Desert Tan",
+        "reference": "https://imagecdn.owenscorning.com/ocimages/image/upload/c_crop,h_3699,w_3699,x_2563,y_630/c_scale,w_640/f_jpg,q_85/v1/pagebuilder/uploads/prod/11395957/O_DesertTan_RGB_swatch_lg",
+        "swatch": "/images/swatches/oc-oakridge-desert-tan.jpg"
+      },
+      {
+        "id": "teak",
+        "name": "Teak",
+        "reference": "https://imagecdn.owenscorning.com/ocimages/image/upload/c_crop,h_3699,w_3699,x_210,y_0/c_scale,w_640/f_jpg,q_85/v1/pagebuilder/uploads/prod/11262105/O_Teak_RGB_swatch_lg",
+        "swatch": "/images/swatches/oc-oakridge-teak.jpg"
+      },
+      {
+        "id": "twilight-black",
+        "name": "Twilight Black",
+        "reference": "https://imagecdn.owenscorning.com/ocimages/image/upload/c_crop,h_3699,w_3699,x_160,y_0/c_scale,w_640/f_jpg,q_85/v1/pagebuilder/uploads/prod/11262113/O_TwilightBlack_RGB_swatch_lg",
+        "swatch": "/images/swatches/oc-oakridge-twilight-black.jpg"
+      }
+    ]
+  },
+  {
+    "id": "oc-woodmoor",
+    "brand": "Owens Corning",
+    "name": "Woodmoor",
+    "style": "Designer",
+    "description": "Thick, rugged wood-shake profile with deep dimensional shadows.",
+    "source": "https://www.owenscorning.com/en-us/roofing/build-your-roof/artisan-roofing-268449/shingles",
+    "verified": "2026-09-19",
+    "colors": [
+      {
+        "id": "chestnut",
+        "name": "Chestnut",
+        "reference": "https://imagecdn.owenscorning.com/ocimages/image/upload/c_crop,h_4924,w_4924,x_677,y_1881/c_scale,w_640/f_jpg,q_85/v1/pagebuilder/uploads/prod/e0d8de0e-9a49-4d14-b531-f9d2436aa71e/WW_Chestnut_RGB_swatch_lg",
+        "swatch": "/images/swatches/oc-woodmoor-chestnut.jpg"
+      },
+      {
+        "id": "granite",
+        "name": "Granite",
+        "reference": "https://imagecdn.owenscorning.com/ocimages/image/upload/c_crop,h_4924,w_4924,x_1376,y_9/c_scale,w_640/f_jpg,q_85/v1/pagebuilder/uploads/prod/0b5bdd92-47f7-4a48-8273-2467209d8e5f/WW_Granite_RGB_swatch_lg",
+        "swatch": "/images/swatches/oc-woodmoor-granite.jpg"
+      },
+      {
+        "id": "mesquite",
+        "name": "Mesquite",
+        "reference": "https://imagecdn.owenscorning.com/ocimages/image/upload/c_crop,h_4924,w_4924,x_513,y_654/c_scale,w_640/f_jpg,q_85/v1/pagebuilder/uploads/prod/3c7f0022-2ea6-4a41-a33b-c014d9157420/WW_Mesquite_RGB_swatch_lg",
+        "swatch": "/images/swatches/oc-woodmoor-mesquite.jpg"
+      },
+      {
+        "id": "sycamore",
+        "name": "Sycamore",
+        "reference": "https://imagecdn.owenscorning.com/ocimages/image/upload/c_crop,h_4924,w_4924,x_0,y_0/c_scale,w_640/f_jpg,q_85/v1/pagebuilder/uploads/prod/bda3d25e-d7f7-41e5-bec3-318983aad687/WW_Sycamore_RGB_swatch_lg",
+        "swatch": "/images/swatches/oc-woodmoor-sycamore.jpg"
+      },
+      {
+        "id": "timber",
+        "name": "Timber",
+        "reference": "https://imagecdn.owenscorning.com/ocimages/image/upload/c_crop,h_4924,w_4924,x_619,y_668/c_scale,w_640/f_jpg,q_85/v1/pagebuilder/uploads/prod/2300a4c5-9ccf-4c4a-a9f8-907c83746b29/WW_Timber_RGB_swatch_lg",
+        "swatch": "/images/swatches/oc-woodmoor-timber.jpg"
+      }
+    ]
+  },
+  {
+    "id": "iko-dynasty",
+    "brand": "IKO",
+    "name": "Dynasty",
+    "style": "Architectural",
+    "description": "Bold, high-definition color contrasts and a staggered laminated shake pattern.",
+    "source": "https://www.iko.com/na/product/dynasty/",
+    "verified": "2026-09-19",
+    "colors": [
+      {
+        "id": "granite-black",
+        "name": "Granite Black",
+        "reference": "https://www.iko.com/na/wp-content/uploads/2024/04/RGB-GRBK_IKO_CRC_PRFM_SWCH-upd-min.webp",
+        "swatch": "/images/swatches/iko-dynasty-granite-black.jpg"
+      },
+      {
+        "id": "shadow-brown",
+        "name": "Shadow Brown",
+        "reference": "https://www.iko.com/na/wp-content/uploads/2024/04/RGB-SHBN_IKO_CRC_PRFM_SWCH.webp",
+        "swatch": "/images/swatches/iko-dynasty-shadow-brown.jpg"
+      },
+      {
+        "id": "summit-grey",
+        "name": "Summit Grey",
+        "reference": "https://www.iko.com/na/wp-content/uploads/2024/05/RGB-SUMT_GREY_IKO_CRC_DYST_SWCH.webp",
+        "swatch": "/images/swatches/iko-dynasty-summit-grey.jpg"
+      },
+      {
+        "id": "driftshake",
+        "name": "Driftshake",
+        "reference": "https://www.iko.com/na/wp-content/uploads/2024/05/RGB-DRSK_IKO_CRC_PRFM_SWCH-upd-min-1.webp",
+        "swatch": "/images/swatches/iko-dynasty-driftshake.jpg"
+      },
+      {
+        "id": "frostone-grey",
+        "name": "Frostone Grey",
+        "reference": "https://www.iko.com/na/wp-content/uploads/2024/05/FRGY_IKO_CRC_PRFM_SWCH-1.webp",
+        "swatch": "/images/swatches/iko-dynasty-frostone-grey.jpg"
+      },
+      {
+        "id": "cornerstone",
+        "name": "Cornerstone",
+        "reference": "https://www.iko.com/na/wp-content/uploads/2024/05/RGB-CRNS_IKO_CRC_PRFM_SWCH-upd-min-1.webp",
+        "swatch": "/images/swatches/iko-dynasty-cornerstone.jpg"
+      },
+      {
+        "id": "atlantic-blue",
+        "name": "Atlantic Blue",
+        "reference": "https://www.iko.com/na/wp-content/uploads/2024/12/RGB-ATBL_IKO_CRC_DYST_SWCH-upd-min.webp",
+        "swatch": "/images/swatches/iko-dynasty-atlantic-blue.jpg"
+      },
+      {
+        "id": "glacier",
+        "name": "Glacier",
+        "reference": "https://www.iko.com/na/wp-content/uploads/2024/04/RGB-GLCR_IKO_CRC_PRFM_SWCH-upd-min.webp",
+        "swatch": "/images/swatches/iko-dynasty-glacier.jpg"
+      },
+      {
+        "id": "monaco-red",
+        "name": "Monaco Red",
+        "reference": "https://www.iko.com/na/wp-content/uploads/2024/05/RGB-MNRD_IKO_CRC_DYST_SWCH-upd-min.webp",
+        "swatch": "/images/swatches/iko-dynasty-monaco-red.jpg"
+      },
+      {
+        "id": "emerald-green",
+        "name": "Emerald Green",
+        "reference": "https://www.iko.com/na/wp-content/uploads/2024/05/RGB-EMGR_IKO_CRC_DYST_SWCH-upd-min.webp",
+        "swatch": "/images/swatches/iko-dynasty-emerald-green.jpg"
+      },
+      {
+        "id": "biscayne",
+        "name": "Biscayne",
+        "reference": "https://www.iko.com/na/wp-content/uploads/2024/05/RGB-BCYN_IKO_CRC_DYST_SWCH-upd-min.webp",
+        "swatch": "/images/swatches/iko-dynasty-biscayne.jpg"
+      },
+      {
+        "id": "brownstone",
+        "name": "Brownstone",
+        "reference": "https://www.iko.com/na/wp-content/uploads/2024/05/RGB-BSTN_IKO_CRC_PRFM_SWCH-upd-min-1.webp",
+        "swatch": "/images/swatches/iko-dynasty-brownstone.jpg"
+      }
+    ]
+  },
+  {
+    "id": "atlas-pinnacle",
+    "brand": "Atlas",
+    "name": "Pinnacle Pristine",
+    "style": "Architectural",
+    "description": "Dimensional asphalt shingles with a varied, textured shake appearance.",
+    "source": "https://www.atlasroofing.com/products/roof-shingles/pinnacle-pristine-shingles",
+    "verified": "2026-09-19",
+    "colors": [
+      {
+        "id": "black-shadow",
+        "name": "Black Shadow",
+        "reference": "https://www.atlasroofing.com/img/shingles/regional-colors/swatch/pristine/BlackShadow.jpg",
+        "swatch": "/images/swatches/atlas-pinnacle-black-shadow.jpg"
+      },
+      {
+        "id": "coastal-granite",
+        "name": "Coastal Granite",
+        "reference": "https://www.atlasroofing.com/img/shingles/regional-colors/swatch/pristine/CoastalGranite.jpg",
+        "swatch": "/images/swatches/atlas-pinnacle-coastal-granite.jpg"
+      },
+      {
+        "id": "hearthstone",
+        "name": "Hearthstone",
+        "reference": "https://www.atlasroofing.com/img/shingles/regional-colors/swatch/pristine/Hearthstone.jpg",
+        "swatch": "/images/swatches/atlas-pinnacle-hearthstone.jpg"
+      },
+      {
+        "id": "pewter",
+        "name": "Pewter",
+        "reference": "https://www.atlasroofing.com/img/shingles/regional-colors/swatch/pristine/Pewter.jpg",
+        "swatch": "/images/swatches/atlas-pinnacle-pewter.jpg"
+      },
+      {
+        "id": "weathered-wood",
+        "name": "Weathered Wood",
+        "reference": "https://www.atlasroofing.com/img/shingles/regional-colors/swatch/pristine/WeatheredWood.jpg",
+        "swatch": "/images/swatches/atlas-pinnacle-weathered-wood.jpg"
+      },
+      {
+        "id": "weathered-shadow",
+        "name": "Weathered Shadow",
+        "reference": "https://www.atlasroofing.com/img/shingles/regional-colors/swatch/pristine/WeatheredShadow.jpg",
+        "swatch": "/images/swatches/atlas-pinnacle-weathered-shadow.jpg"
+      },
+      {
+        "id": "summer-storm",
+        "name": "Summer Storm",
+        "reference": "https://www.atlasroofing.com/img/shingles/regional-colors/swatch/pristine/SummerStorm.jpg",
+        "swatch": "/images/swatches/atlas-pinnacle-summer-storm.jpg"
+      },
+      {
+        "id": "woodland-green",
+        "name": "Woodland Green",
+        "reference": "https://www.atlasroofing.com/img/shingles/regional-colors/swatch/pristine/WoodlandGreen.jpg",
+        "swatch": "/images/swatches/atlas-pinnacle-woodland-green.jpg"
+      }
+    ]
+  },
+  {
+    "id": "tamko-titan",
+    "brand": "TAMKO",
+    "name": "Titan XT",
+    "style": "Architectural",
+    "description": "Laminated architectural shingles with distinct shadowing and blended granules.",
+    "source": "https://www.tamko.com/all-shingle-colors/titan-xt-rustic-black",
+    "verified": "2026-09-19",
+    "colors": [
+      {
+        "id": "rustic-black",
+        "name": "Rustic Black",
+        "reference": "https://www.tamko.com/images/default-source/americas-shingle/swatches/heritage-proline-titan-xt---rustic-black-(phillipsburg)-color-swatch.jpg?sfvrsn=c9da21a0_3",
+        "swatch": "/images/swatches/tamko-titan-rustic-black.jpg"
+      },
+      {
+        "id": "natural-timber",
+        "name": "Natural Timber",
+        "reference": "https://www.tamko.com/images/default-source/americas-shingle/swatches/heritage-proline-titan-xt---natural-timber-(phillipsburg)-color-swatch.jpg?sfvrsn=39da21a0_3",
+        "swatch": "/images/swatches/tamko-titan-natural-timber.jpg"
+      },
+      {
+        "id": "thunderstorm-grey",
+        "name": "Thunderstorm Grey",
+        "reference": "https://www.tamko.com/images/default-source/americas-shingle/swatches/heritage-proline-titan-xt---thunderstorm-grey-(phillipsburg)-color-swatch.jpg?sfvrsn=35da21a0_3",
+        "swatch": "/images/swatches/tamko-titan-thunderstorm-grey.jpg"
+      },
+      {
+        "id": "weathered-wood",
+        "name": "Weathered Wood",
+        "reference": "https://www.tamko.com/images/default-source/americas-shingle/swatches/heritage-proline-titan-xt---weathered-wood-(phillipsburg)-color-swatch.jpg?sfvrsn=31da21a0_3",
+        "swatch": "/images/swatches/tamko-titan-weathered-wood.jpg"
+      },
+      {
+        "id": "rustic-slate",
+        "name": "Rustic Slate",
+        "reference": "https://www.tamko.com/images/default-source/americas-shingle/swatches/heritage-proline-titan-xt---rustic-slate-(phillipsburg)-color-swatch.jpg?sfvrsn=3dda21a0_3",
+        "swatch": "/images/swatches/tamko-titan-rustic-slate.jpg"
+      },
+      {
+        "id": "black-walnut",
+        "name": "Black Walnut",
+        "reference": "https://www.tamko.com/images/default-source/americas-shingle/swatches/heritage-proline-titan-xt---black-walnut-(frederick)-color-swatch.jpg?sfvrsn=25da21a0_3",
+        "swatch": "/images/swatches/tamko-titan-black-walnut.jpg"
+      },
+      {
+        "id": "autumn-brown",
+        "name": "Autumn Brown",
+        "reference": "https://www.tamko.com/images/default-source/americas-shingle/swatches/titan-xt---autumn-brown-phillipsburg-color-swatch.jpg?sfvrsn=26fb22a0_2",
+        "swatch": "/images/swatches/tamko-titan-autumn-brown.jpg"
+      }
+    ]
+  },
+  {
+    "id": "gaf-hdz",
+    "brand": "GAF",
+    "name": "Timberline HDZ",
+    "style": "Architectural",
+    "description": "Wood-shake-inspired dimensional profile with staggered tabs and shadow bands.",
+    "source": "https://www.gaf.com/en-us/roofing-materials/residential-roofing-materials/shingles/timberline-hdz",
+    "verified": "2026-09-19",
+    "colors": [
+      {
+        "id": "weathered-wood",
+        "name": "Weathered Wood",
+        "reference": "",
+        "swatch": ""
+      },
+      {
+        "id": "charcoal",
+        "name": "Charcoal",
+        "reference": "",
+        "swatch": ""
+      },
+      {
+        "id": "pewter-gray",
+        "name": "Pewter Gray",
+        "reference": "",
+        "swatch": ""
+      },
+      {
+        "id": "barkwood",
+        "name": "Barkwood",
+        "reference": "",
+        "swatch": ""
+      },
+      {
+        "id": "shakewood",
+        "name": "Shakewood",
+        "reference": "",
+        "swatch": ""
+      },
+      {
+        "id": "hickory",
+        "name": "Hickory",
+        "reference": "",
+        "swatch": ""
+      },
+      {
+        "id": "slate",
+        "name": "Slate",
+        "reference": "",
+        "swatch": ""
+      },
+      {
+        "id": "mission-brown",
+        "name": "Mission Brown",
+        "reference": "",
+        "swatch": ""
+      },
+      {
+        "id": "hunter-green",
+        "name": "Hunter Green",
+        "reference": "",
+        "swatch": ""
+      }
+    ]
+  }
+]
