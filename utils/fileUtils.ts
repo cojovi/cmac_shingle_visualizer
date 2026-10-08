@@ -1,5 +1,8 @@
 import type { Photo } from "../types";
-export const MAX_FILE_BYTES = 12 * 1024 * 1024;
+
+export const MAX_UPLOAD_MB = 36;
+export const MAX_FILE_BYTES = MAX_UPLOAD_MB * 1024 * 1024;
+
 export async function preparePhoto(file: File): Promise<Photo> {
   if (!["image/jpeg", "image/png", "image/webp"].includes(file.type))
     throw new Error(
@@ -7,7 +10,7 @@ export async function preparePhoto(file: File): Promise<Photo> {
     );
   if (file.size > MAX_FILE_BYTES)
     throw new Error(
-      "This photo is too large. Choose an image smaller than 12 MB.",
+      `This photo is too large. Choose an image smaller than ${MAX_UPLOAD_MB} MB.`,
     );
   const bitmap = await createImageBitmap(file).catch(() => {
     throw new Error(

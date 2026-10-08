@@ -36,7 +36,12 @@ import { Camera } from "./components/Camera";
 import { Comparison } from "./components/Comparison";
 import { Dialog } from "./components/Dialog";
 import { generateRoofImage } from "./services/geminiService";
-import { downloadImage, photoUrl, preparePhoto } from "./utils/fileUtils";
+import {
+  downloadImage,
+  MAX_UPLOAD_MB,
+  photoUrl,
+  preparePhoto,
+} from "./utils/fileUtils";
 import { deleteDesign, readDesigns, storeDesign } from "./utils/storage";
 import type { CustomShingle, Design, Photo, Selection } from "./types";
 import "./styles.css";
@@ -426,7 +431,7 @@ export default function App() {
                     <Plus size={17} />
                   </button>
                   <div className="upload-bottom">
-                    <span>JPG, PNG, WebP · Up to 12 MB</span>
+                    <span>JPG, PNG, WebP · Up to {MAX_UPLOAD_MB} MB</span>
                     <button onClick={() => setModal("camera")}>
                       <CameraIcon size={13} /> Camera
                     </button>
@@ -688,6 +693,16 @@ export default function App() {
               )}
             </section>
             <div className="generate-section">
+              {configured === false && (
+                <div className="setup-note">
+                  <h3>Connect image generation</h3>
+                  <p>
+                    Add <code>GEMINI_API_KEY</code> to <code>.env</code> or{" "}
+                    <code>.env.local</code>, then restart the studio. You can
+                    still browse colors and upload photos.
+                  </p>
+                </div>
+              )}
               {error && (
                 <div className="error-box" role="alert">
                   <p>{error}</p>
@@ -1074,7 +1089,7 @@ export default function App() {
                 <p>
                   Upload or take a bright, sharp photo with the whole roof
                   visible. Avoid trees blocking the roof. JPG, PNG, and WebP
-                  files up to 12 MB work best.
+                  files up to {MAX_UPLOAD_MB} MB work best.
                 </p>
               </div>
             </article>
@@ -1115,8 +1130,8 @@ export default function App() {
               <h3>Connect image generation</h3>
               <p>
                 The studio owner needs to add a Gemini API key as{" "}
-                <code>GEMINI_API_KEY</code> in the server’s{" "}
-                <code>.env.local</code> file, then restart the app. A model with
+                <code>GEMINI_API_KEY</code> in <code>.env</code> or{" "}
+                <code>.env.local</code>, then restart the app. A model with
                 image-generation access is required.
               </p>
             </div>

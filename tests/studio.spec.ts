@@ -12,6 +12,7 @@ test("studio renders at desktop and mobile widths with real assets and no overfl
     await page.goto("/");
     await expect(page).toHaveTitle("Shingle Visualizer");
     await expect(page.getByRole("heading", { level: 1 })).toBeVisible();
+    await expect(page.getByText(/Up to 36 MB/)).toBeVisible();
     await expect(
       page.getByRole("img", { name: "Original home photograph" }),
     ).toBeVisible();

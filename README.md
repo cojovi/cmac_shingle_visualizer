@@ -8,14 +8,14 @@ Requires Node.js 22 or newer.
 
 ```sh
 npm install
-cp .env.example .env.local
-# Add your GEMINI_API_KEY to .env.local
+cp .env.example .env
+# Add your GEMINI_API_KEY to .env (or .env.local)
 npm run dev
 ```
 
 Open http://localhost:3000. The catalog and sample-home workflow work without a key. Generation requires a Gemini API account with billing and access to the configured image model. The default is `gemini-3.1-flash-image`; override `GEMINI_IMAGE_MODEL` if needed for your account.
 
-**The API key stays on the server.** Do not use a `VITE_` environment variable for it. Changes to `.env.local` require restarting the server.
+**The API key stays on the server.** Do not use a `VITE_` environment variable for it. Either `.env` or `.env.local` works; a non-empty value wins, and shell environment variables are not overwritten. Changes to those files require restarting the server. When the studio starts, the terminal prints `image studio connected` if the key loaded.
 
 ## Build and run
 
@@ -28,7 +28,7 @@ This application needs its Node server; deploying only `dist` to a static host w
 
 ## How the image generation works
 
-1. The browser validates the uploaded JPEG, PNG, or WebP (maximum 12 MB), decodes it, strips embedded metadata by re-encoding, and resizes the longest side to 2,048 pixels.
+1. The browser validates the uploaded JPEG, PNG, or WebP (maximum 36 MB), decodes it, strips embedded metadata by re-encoding, and resizes the longest side to 2,048 pixels.
 2. The server validates the product/color pair against the curated catalog and reads its bundled manufacturer sample. Custom or missing-swatch products require an uploaded sample; the app never fabricates a reference.
 3. The house and reference image are passed together to Gemini with roof-only instructions specifying shingle geometry, granules, perspective, light, and preservation of the home.
 4. The browser displays the result with an accessible before/after slider. Results can be saved to IndexedDB on the current device or downloaded. Unsaved recent previews last only for the current session (up to eight).

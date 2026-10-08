@@ -1,7 +1,11 @@
 import test from "node:test";
 import assert from "node:assert/strict";
 import { readFile, access } from "node:fs/promises";
-import { buildGeneration, validatePhoto } from "../server/generate";
+import {
+  buildGeneration,
+  MAX_PROCESSED_BASE64_CHARS,
+  validatePhoto,
+} from "../server/generate";
 import { products } from "../data/catalog";
 import type { GenerationRequest, Photo } from "../types";
 const photo: Photo = {
@@ -86,7 +90,11 @@ test("rejects fake image contents, excessive payloads and missing images", () =>
     /contents/,
   );
   assert.throws(
-    () => validatePhoto({ ...photo, data: "A".repeat(8_000_004) }),
+    () =>
+      validatePhoto({
+        ...photo,
+        data: "A".repeat(MAX_PROCESSED_BASE64_CHARS + 4),
+      }),
     /valid JPG/,
   );
   assert.throws(() => validatePhoto(undefined), /valid JPG/);

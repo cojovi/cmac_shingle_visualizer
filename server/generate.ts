@@ -3,6 +3,13 @@ import { readFile } from "node:fs/promises";
 import path from "node:path";
 import { getSelection } from "../data/catalog";
 import type { GenerationRequest, Photo } from "../types";
+
+export const MAX_PROCESSED_BASE64_CHARS = 24_000_000;
+
+export function apiKey() {
+  return process.env.GEMINI_API_KEY?.trim() || "";
+}
+
 export class RequestError extends Error {
   constructor(
     message: string,
@@ -16,11 +23,11 @@ export function validatePhoto(photo: Photo | undefined) {
     !photo ||
     !["image/jpeg", "image/png", "image/webp"].includes(photo.mimeType) ||
     typeof photo.data !== "string" ||
-    photo.data.length > 8_000_000 ||
+    photo.data.length > MAX_PROCESSED_BASE64_CHARS ||
     !/^[A-Za-z0-9+/]+={0,2}$/.test(photo.data)
   )
     throw new RequestError(
-      "Please upload a valid JPG, PNG, or WebP image under 6 MB after processing.",
+      "Please upload a valid JPG, PNG, or WebP image. Large photos are resized automatically; try a smaller file if this continues.",
     );
   const bytes = Buffer.from(photo.data, "base64");
   const valid =
@@ -106,14 +113,16 @@ export async function generate(
   signal: AbortSignal,
 ) {
   const { prompt, reference } = await buildGeneration(payload);
-  if (!process.env.GEMINI_API_KEY)
+  const key = apiKey();
+  if (!key)
     throw new RequestError(
-      "Image generation isn’t connected yet. Add GEMINI_API_KEY to .env.local on the server, then restart the studio. You can still explore the full shingle library.",
+      "Image generation isn’t connected yet. Add GEMINI_API_KEY to .env or .env.local in the project folder, then restart the studio. You can still explore the full shingle library.",
       503,
     );
-  const ai = new GoogleGenAI({ apiKey: process.env.GEMINI_API_KEY });
+  const ai = new GoogleGenAI({ apiKey: key });
   const response = await ai.models.generateContent({
-    model: process.env.GEMINI_IMAGE_MODEL || "gemini-3.1-flash-image",
+    model:
+      process.env.GEMINI_IMAGE_MODEL?.trim() || "gemini-3.1-flash-image",
     contents: [
       {
         role: "user",

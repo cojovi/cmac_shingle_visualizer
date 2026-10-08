@@ -738,6 +738,9 @@ h1 {
   text-align: center;
   margin-top: 10px;
 }
+.generate-section .setup-note {
+  margin: 0 0 12px;
+}
 .preview-panel {
   min-width: 0;
   animation: reveal 0.45s ease both;
